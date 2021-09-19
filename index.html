@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap" rel="stylesheet">
+
+  <title>Frontend Mentor | 3-column preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body style="background-color: hsl(0, 0%, 95%);">
+  
+  <div class="grid md:grid-cols-3 grid-cols-1 md:max-w-6xl max-w-md m-auto pt-44 text-white mb-24">
+    <div class="md:rounded-l-xl rounded-t-xl" style="background-color: hsl(31, 77%, 52%);">
+      <img src="./images/icon-sedans.svg" alt="" class="pt-14 ml-12">
+      <h1 class="text-4xl pt-8 pl-12" style="color: hsl(0, 0%, 95%); font-family: 'Big Shoulders Display', sans-serif;">SEDANS</h1>
+      <p class="pt-8 px-12 font-light text-xl leading-relaxed" style="color: hsla(0, 0%, 100%, 0.75); font-family: 'Lexend Deca', sans-serif;">
+        Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city 
+        or on your next road trip.
+      </p>
+      <button class="bg-white rounded-3xl px-10 py-3 mt-24 ml-12 mb-20 font-bold" style="color: hsl(31, 77%, 52%);">Learn More</button>
+    </div>
+
+    <div class="" style="background-color: hsl(184, 100%, 22%);">
+      <img src="./images/icon-suvs.svg" alt="" class="pt-14 ml-12">
+      <h1 class="text-4xl  pt-8 pl-12" style="color: hsl(0, 0%, 95%); font-family: 'Big Shoulders Display', sans-serif;">SUVS</h1>
+      <p class="pt-8 px-12 font-light text-xl leading-relaxed" style="color: hsla(0, 0%, 100%, 0.75); font-family: 'Lexend Deca', sans-serif;">
+        Take an SUV for its spacious interior, power, and versatility. Perfect for your next family vacation 
+        and off-road adventures.
+      </p>
+      <button class="bg-white rounded-3xl px-10 py-3 mt-24 ml-12 mb-20 font-bold" style="color: hsl(184, 100%, 22%);">Learn More</button>
+    </div>
+
+    <div class="md:rounded-r-xl rounded-b-xl" style="background-color:  hsl(179, 100%, 13%);">
+      <img src="./images/icon-luxury.svg" alt="" class="pt-14 ml-12">
+      <h1 class="text-4xl  pt-8 pl-12" style="color: hsl(0, 0%, 95%); font-family: 'Big Shoulders Display', sans-serif;">LUXURY</h1>
+      <p class="pt-8 px-12 font-light text-xl leading-relaxed" style="color: hsla(0, 0%, 100%, 0.75); font-family: 'Lexend Deca', sans-serif;">
+        Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury 
+        rental and arrive in style.
+      </p>
+      <button class="bg-white rounded-3xl px-10 py-3 mt-24 ml-12 mb-20 font-bold" style="color: hsl(179, 100%, 13%);">Learn More</button>
+    </div>
+  </div>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Preda Daniel</a>.
+  </div>
+</body>
+</html>
